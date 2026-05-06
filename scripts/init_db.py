@@ -1,9 +1,7 @@
 import sqlite3
 from pathlib import Path
 
-
 DB_PATH = Path(__file__).resolve().parent.parent / "data" / "novatech.db"
-
 tickets = [
     ("WEB-001", "L'index ne doit pas afficher de tiquets", "Critique", "Ouvert", None, "Web"),
     ("WEB-002", "Le lien vers l'analyse des drones est mort sur la page d'accueil", "Haute", "Ouvert", None, "Web"),

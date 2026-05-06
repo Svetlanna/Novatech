@@ -90,3 +90,9 @@ footer {
 }
 
 /* TODO : améliorer le design global (Valentin) */
+
+@media screen and (max-width: 480px) {
+table {
+    width: 480px; /* <--- C'EST CA L'ERREUR */
+  }
+}
