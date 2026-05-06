@@ -14,7 +14,6 @@ tickets = [
     ("PY-002", "Ajouter dans le README la procédure d'exécution des scripts Python", "Basse", "Ouvert", None, "Documentation"),
 ]
 
-
 DB_PATH.parent.mkdir(parents=True, exist_ok=True)
 
 
